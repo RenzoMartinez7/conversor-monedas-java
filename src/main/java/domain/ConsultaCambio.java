@@ -42,6 +42,8 @@ public class ConsultaCambio {
                 3) PEN
                 4) COP
                 5) ARS
+                6) Otra moneda
+                7) Salir
                 """);
     }
 }

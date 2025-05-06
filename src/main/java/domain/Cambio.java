@@ -15,6 +15,7 @@ public class Cambio {
 
     @Override
     public String toString() {
-        return cantidad + " " + monedaOrigen + " = " + resultado + " " + monedaDestino;
+        return """
+                Cambiaste %.2f %s y recibiste %.2f %s""".formatted(cantidad, monedaOrigen, resultado, monedaDestino);
     }
 }
