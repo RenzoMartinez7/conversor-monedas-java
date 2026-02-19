@@ -11,7 +11,7 @@ public class ConsultaCambio {
     public Moneda consultaCambioMoneda(String monedaOrigen){
 
         // Asignando la API Key -> Esto se encuentra en la página de la API: https://app.exchangerate-api.com/
-        String api_key = "dfa421628fe7504a92bea38a"; // API Key de ejemplo -> reemplazar por la tuya
+        String api_key = "dio421658fe7504a62bea38b"; // API Key de ejemplo -> reemplazar por la tuya
         // Definiendo la URI
         URI uri = URI.create("https://v6.exchangerate-api.com/v6/" + api_key + "/latest/" + monedaOrigen);
 
